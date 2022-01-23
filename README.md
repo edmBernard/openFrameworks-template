@@ -27,7 +27,7 @@ This project depends on:
 We use [vcpkg](https://github.com/Microsoft/vcpkg) to manage openFrameworks dependencies. Unfortunatly it's not a method maintained by openFrameworks.
 There is a fork of openFrameworks just to support dependencies from vcpkg avaiblable [here](https://github.com/edmBernard/openFrameworks). We just add a cmake that import all dependencies and add submodule for the missing dependencies from vcpkg.
 
-openFrameworks have lots of dependencies there can be seen in the following file [`cmake/FindOpenFramework.cmake`](cmake/FindOpenFramework.cmake)
+openFrameworks has lots of dependencies they can be seen in the following file [`cmake/FindOpenFrameworks.cmake`](cmake/FindOpenFrameworks.cmake)
 
 ```
 ./vcpkg install (all openFrameworks dependencies)
